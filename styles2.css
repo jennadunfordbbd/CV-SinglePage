@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+
+html{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    
+}
+body{
+    background-color: rgb(233, 195, 165);
+    font-family: 'Fjalla One', sans-serif;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+}
+
+h1{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 1.8em;
+}
+
+h2{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 1.1em;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 50%;
+}
+
+.titleHolder{
+    padding: 1rem;
+    text-align: center;
+}
+
+.infoCard{
+    z-index: 10;
+    position: absolute;
+    display: block;
+    background-color: rgb(250, 226, 195);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 30%;
+    right: 5%;
+    bottom: 20%;
+    left: 5%;
+    box-shadow: 0 8px 8px -4px rgb(124, 124, 124);
+}
+
+img.profileImg{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px -4px rgb(46, 46, 46);
+}
+
+.cardInfo{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    row-gap: 0.8rem;
+    column-gap: 0.8rem;
+}
+
+.hideItems{
+    display: none;
+}
+
+.nameTitle2{
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+button.cardButton{
+    background-color: rgb(214, 139, 88);
+    color: white;
+    border-style: none;
+    padding: 1rem;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 9rem;
+    height: 3rem;
+    text-align: center; 
+}
+button.cardButton:hover{
+cursor: pointer;
+background-color: white;
+color:  rgb(214, 139, 88);
+}
+
+.projectsCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+}
+
+.projectHolder{
+    background-color: white;
+    box-shadow: 0 8px 8px -4px rgb(46, 46, 46);
+    width: 100%;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+h4.subHeading{
+    text-align: center;
+    font-size:1.5em;
+}
+
+footer{
+    display: block;
+    width:100%;
+    margin: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.568);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    z-index:1000;
+}
+
+h5{
+    text-align: center;
+    font-size:1.5em;
+}
+
+@media only screen and (max-width: 828px) {
+    .cardInfo{
+        flex-direction: column;
+    }
+    
+}
