@@ -231,3 +231,17 @@ padding-bottom: 4rem;
 
     }
 }
+
+@media only screen and(max-height: 785px){
+    .infoCard{
+        top: 45%;
+
+    }
+}
+
+@media only screen and(max-height: 588px){
+    .infoCard{
+        top: 30%;
+
+    }
+}
