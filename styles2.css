@@ -239,9 +239,9 @@ padding-bottom: 4rem;
     }
 }
 
-@media only screen and(max-height: 588px){
+@media (max-height: 590px){
     .infoCard{
-        top: 30%;
+        top: 50%;
 
     }
 }
