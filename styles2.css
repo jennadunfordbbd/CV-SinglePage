@@ -20,7 +20,7 @@ body{
 h1{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    font-size: 1.8em;
+    font-size: 3em;
 }
 
 h2{
@@ -182,3 +182,27 @@ padding-bottom: 4rem;
     }
     
 }
+
+@media only screen and (max-width: 375px){
+    .infoCard{
+        top: 45%;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 550px){
+    .infoCard{
+        top: 38%;
+
+    }
+
+    @media only screen and (max-width: 280px){
+        .infoCard{
+            top: 60%;
+    
+        }
+}
+
+
