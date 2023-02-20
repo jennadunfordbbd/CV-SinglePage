@@ -260,3 +260,10 @@ padding-bottom: 4rem;
 
     }
 }
+
+@media (max-width: 280px){
+    .infoCard{
+        top: 60%;
+
+    }
+}
