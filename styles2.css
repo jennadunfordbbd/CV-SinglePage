@@ -221,4 +221,13 @@ padding-bottom: 4rem;
         top: 60%;
 
     }
+
+    
+}
+
+@media only screen and (max-width: 230px){
+    .infoCard{
+        top: 60%;
+
+    }
 }
