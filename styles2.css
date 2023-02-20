@@ -41,6 +41,9 @@ header{
     padding: 1rem;
     text-align: center;
 }
+h3{
+    color: rgb(214, 139, 88);
+}
 
 .infoCard{
     z-index: 10;
@@ -52,7 +55,7 @@ header{
     margin: auto;
     top: 30%;
     right: 5%;
-    bottom: 20%;
+    bottom: 25%;
     left: 5%;
     box-shadow: 0 8px 8px -4px rgb(124, 124, 124);
 }
@@ -92,7 +95,6 @@ button.cardButton{
     padding: 1rem;
     font-size: 1em;
     font-weight: bolder;
-    border-radius: 10px;
     width: 9rem;
     height: 3rem;
     text-align: center; 
@@ -118,6 +120,10 @@ color:  rgb(214, 139, 88);
 
 }
 
+.experienceHolder{
+    padding-bottom: 4rem;
+}
+
 .projectHolder{
     background-color: white;
     box-shadow: 0 8px 8px -4px rgb(46, 46, 46);
@@ -135,7 +141,7 @@ footer{
     display: block;
     width:100%;
     margin: 0 0 0 0;
-    background-color: rgba(255, 255, 255, 0.568);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     bottom: 0;
     text-align: center;
@@ -152,10 +158,8 @@ h6{
 }
 
 .aboutHolder{
-    background-color: white;
-    box-shadow: 0 8px 8px -4px rgb(46, 46, 46);
-    margin: 1rem;
-    padding: 1rem;
+   
+padding-bottom: 4rem;
 }
 
 .experienceCard{
@@ -166,7 +170,10 @@ h6{
 }
 
 .aboutCard{
-    margin-bottom: 4rem;
+    background-color: white;
+    box-shadow: 0 8px 8px -4px rgb(46, 46, 46);
+    margin: 1rem;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 828px) {
