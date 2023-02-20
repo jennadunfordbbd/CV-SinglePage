@@ -4,85 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://css.gg/pen.css' rel='stylesheet'>
-    <link href='https://css.gg/phone.css' rel='stylesheet'>
-    <link href='https://css.gg/album.css' rel='stylesheet'>
-    <link href='https://css.gg/cloud.css' rel='stylesheet'>
-    <link href='https://css.gg/website.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="styles2.css">
     <title>Jenna Dunford</title>
 </head>
 <body>
-    <header><h1>Jenna Dunford</h1>
-    <h2>Software Developer/Digital Artist</h2></header>
-    <section class="mainContent">
-        <hr class="solid">
-        <article class="boxContainer">
-        <section class="about box">
-            
-            <h3></i>About Me</h3>
-            <i class="gg-pen"></i>
-            <p>My name is Jenna Dunford, I am currently studying a Bachelor of Engineering Sciences (Digital Arts) 
-        and interning at BBD software.</p>
-
+    <header>
+        <section class="titleHolder">
+        <h1>Jenna Dunford</h1>
+        <h2>Software Developer</h2>
     </section>
+    </header>
+    <section class="infoCard">
+        <article class="cardInfo">
+            <section>
+            <img class="profileImg" src="Images/profileImage.jpg" alt="A photo of myself">
+            <h3 class="nameTitle2">Jenna Dunford</h3>
+        </section>
+        <section>
+            <button class="cardButton 2" onclick="hideSection('myProjects'); showSection('myAbout'); hideSection('myExperience')">About Me</button>
+            </section>
+        <section>
+        <button class="cardButton b1" onclick="showSection('myProjects'); hideSection('myAbout'); hideSection('myExperience')">Projects</button>
+        </section>
 
-<section class="contact box">
-    <h3></i>Contact Details</h3>
-    <i class="gg-phone"></i>
-    <ul>
-    <li>Email Address: jenna.dunford@gmail.com</li>
-    <li>Phone Number: (+27) 083 532 6309</li>
-    <li>Current Location: Johannesburg</li>
-</ul>
-
-</section>
-
-<section class="education box">
-    <h3>Education</h3>
-    <i class="gg-album"></i>
-<ul>
-    <li>Matriculated with a Bachelors Pass and Four Distinctions in 2018 from Westville Girls' High School</li>
-    <li>Currently studying a Bachelor of Engineering Sciences (Digital Arts) at the University of the Witwatersrand (2019-)</li>
-</ul>
-
-</section>
-
-<section class="interests box">
+        <section>
+            <button class="cardButton 3" onclick="hideSection('myProjects'); hideSection('myAbout'); showSection('myExperience')">Experience</button>
+            </section>
     
-    <h3>Interests</h3>
-    <i class="gg-cloud"></i>
-    <ul>
-        <li>Programming</li>
-        <li>Digital Arts</li>
-    </ul>
-
-</section>
-
-<section class="experience box">
-    <h3>Experience</h3>
-    <i class="gg-website"></i>
-    <ul>
-        <li>(2017) Table Runner at a Restaurant</li>
-        <li>(2020) Information Technology Tutor for TeachMe2</li>
-        <li>(2022-2023) Short Vac Work Course at BBD</li>
-    </ul>
-
-</section>
-</article>
-<hr class="solid">
-</section>
-<section>
-<article>
-    <h2>Some of My Work</h2>
-    <article class="circleBox">
-<section class="circle"><p class="circleText">Snakes and Ladders C++</p></section>
-<section class="circle"><p class="circleText">AURORA: 2022 Game Jam Game</p></section>
-<section class="circle"><p class="circleText">Electric VS Fuel Consumption Comparison Appliction</p></section>
+        
+        <section class="aboutMeHolder"></section>
+        
     </article>
-</article>
+    <section id="myProjects" class="projectsHolder hideItems">
+   
+    <article class="projectsCard">
+        <section class="projectHolder"><h5 class="projectTitle">A Dynamic Game of Snakes and Ladders</h5>
+            <article><p>I did this for this project</p>
+                <p>Some more context</p>
+                <h6>Languages and Frameworks</h6>
+                <ul>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>Unity</li>
+                </ul>
+                <h7>Check out this project here</h7>
+            </article>
+        </section>
+        <section class="projectHolder"><h5>AURORA: A Game Jam Game</h5> <article><p>I did this for this project</p>
+            <p>Some more context</p>
+            <h6>Languages and Frameworks</h6>
+            <ul>
+                <li>C#</li>
+                <li>JavaScript</li>
+                <li>Unity</li>
+            </ul>
+            <h7>Check out this project here</h7>
+        </article></section>
+        <section class="projectHolder"><h5>Electrical VS Fuel Energy Consumption Web Application</h5> <article><p>I did this for this project</p>
+            <p>Some more context</p>
+            <h6>Languages and Frameworks</h6>
+            <ul>
+                <li>C#</li>
+                <li>JavaScript</li>
+                <li>Unity</li>
+            </ul>
+            <h7>Check out this project here</h7>
+        </article></section>
+    </article>
+    </section>
+    <section id="myAbout" class="aboutHolder">
+        <section class="aboutCard"><h5>A Bit About Myself</h5> 
+            <article>
+                <p>My name is Jenna Dunford, I matriculated from Westville Girls' High School in Durban, KZN and am now residing in Johannesburg studying a degree in Engineering Sciences(Digital Arts) at the University of the Witwatersrand.</p>
+                <p>I enjoy software development, digital arts, video games, and animation.</p>
+            </article>
+    </section>
 </section>
+<section id="myExperience" class="experienceHolder hideItems">
+    <section class="experienceCard"><h5>My Experience</h5>
+    <article>
+        <section><h6>Work Experience</h6></section>
+        <section><h6>Languages</h6></section>
+        <section><h6>Skills</h6></section>
+        
+    </article>
+</section>
+</section>
+</section>
+    <footer class="footerHolder">
+        <section>
+            <p>Put social links here</p>
+        </section>
+    
+    </footer>
     
 </body>
+<script type="text/JavaScript" src="main2.js"></script>
 </html>
